@@ -1,0 +1,31 @@
+.spacer {
+    flex: 1;
+}
+
+.example-icon {
+    padding: 0 14px;
+}
+
+.example-spacer-1 {
+    flex: 1 1 auto;
+}
+
+.example-spacer-2 {
+    flex: 1 1 auto;
+}
+
+
+mat-card img{
+    object-fit: cover; /*this makes the image in src fit to the size specified below*/
+    width: 100%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+    height: 80%;
+}
+
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
